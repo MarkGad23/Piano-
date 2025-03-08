@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano on the Web</title>
+    <link rel="stylesheet" href="stly.css"> 
+</head>
+<body class="markdown-body">
+    <div>
+      <h1>Piano on the Web</h1>
+      <p>
+        Hey there! This site allows you to make music like you would on any piano!
+        Let's make some noise!
+      </p>
+      <p>
+        Click the <kbd>S</kbd> key to make a middle C (or C4), then
+        <kbd>D</kbd> to make D4 and so on up until B4 with the <kbd>K</kbd> key.
+      </p>
+    </div>
+    <div id="piano">
+      <span class="key" id="C"><strong>C</strong></span>
+      <span class="key" id="D"><strong>D</strong></span>
+      <span class="key" id="E"><strong>E</strong></span>
+      <span class="key" id="F"><strong>F</strong></span>
+      <span class="key" id="G"><strong>G</strong></span>
+      <span class="key" id="A"><strong>A</strong></span>
+      <span class="key" id="B"><strong>B</strong></span>
+    </div>
+    
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.52/Tone.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

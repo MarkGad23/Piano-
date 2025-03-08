@@ -1,0 +1,26 @@
+body {
+    width: 75vw;
+    margin: auto;
+    background-color: lightgrey;
+    font-family: "Arial", sans-serif;
+  }
+  
+  #piano {
+    height: 400px;
+ 
+  }
+  
+  .key {
+    height: 400px;
+    width: 13.2857142857%;
+    float: left;
+    border: 5px solid black;
+    border-right: none;
+    background: white;
+    text-align: center;
+    padding-top: 300px;
+  }
+  
+  #B {
+    border-right: 5px solid black;
+  }
